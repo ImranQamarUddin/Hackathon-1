@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 60px auto;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.left-container {
+    width: 300px;
+    height: 900px;
+    background-color: #1AAFBC ;
+    padding: 5%;
+    border-radius: 0 0 0 50px;
+
+}
+
+
+.left-container .image-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #80634C;
+    border-radius: 50%;
+    justify-content: center;
+
+}
+
+.left-container img {
+    display: flex;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border-width: 10px;
+    background-color: #80634C;
+
+}
+
+.right-container {
+    width: 500px;
+    height: 900px;
+    background-color: #80634C;
+    padding: 8%;
+    border-radius: 0 50px 0 0;
+}
+
+.txt {
+    font-size: 14px;
+    align-items: center;
+}
+
+.style {
+    text-decoration-line: underline;
+}
+
+.style1 {
+    text-decoration-line: underline;
+}
+
+.style2 {
+    text-align: justify;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #1AAFBC;
+    border: 1px solid white;
+}
+.download-cv{
+    display: flex;
+    justify-content: space-around;
+}
+
+button:hover {
+    background-color: #148892;
+}
